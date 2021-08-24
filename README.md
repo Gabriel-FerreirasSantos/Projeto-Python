@@ -10,13 +10,22 @@
     * #### Ainda está em desenvolvimento.
     * #### Mas será um projeto treino.
     * #### Ainda tem varias coisas que colocarei
+    * #### Aceito criticas construtivas para melhoria
 
 
 * ## Como funciona
     * #### Um programa que contem uma calculadora dentro,
     * #### Também contem um game dentro.
-    * #### Contem também  um suporte de informações
+    * #### Contem também  um suporte de informações 
+
+    <br>
+
+## Partes
 
 - [x] Primeira parte
 - [ ] Segunda parte
 - [ ] Terceira parte
+
+    <br>
+
+## Isso é só espero que gostem    
