@@ -10,7 +10,6 @@ menu = ('MENU')
 função.linha()
 print(menu.center(26))
 função.linha()
-print('Em Contrução...')
 print('[1] Calculadora')
 print('[2] Joguinhos')
 print('[3] Suporte')
@@ -37,15 +36,10 @@ if esc1 == '1':
         calculadora.contadepotenciação() 
 elif esc1 == '2':  
     função.fgamesss()
-    print('Em Contrução...')
     print('[1] pedra papel tesoura')
-    print('[2] ')
     escolha1 = input('')
     if escolha1 == '1':
         games.pedra()
-    elif escolha1 == '2':
-        print('em construção...')
-        sleep(1)
 elif esc1 == '3':
     função.linha2()
     suporte.opções()    
