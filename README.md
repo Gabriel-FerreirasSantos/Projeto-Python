@@ -17,3 +17,6 @@
 #### Também contem um game dentro.
 #### Contem também  um suporte de informações
 
+- [x] Primeira parte
+- [ ] Segunda parte
+- [ ] Terceira parte
