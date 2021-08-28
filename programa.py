@@ -1,5 +1,6 @@
 from time import sleep
 from função import função 
+from funçãoloja import funcoesloja
 from função import calculadora
 from funçãoSuporte import suporte
 from jogos import games
@@ -10,9 +11,11 @@ menu = ('MENU')
 função.linha()
 print(menu.center(26))
 função.linha()
+print('Loja Hardware em desenvolvimento')
 print('[1] Calculadora')
 print('[2] Joguinhos')
-print('[3] Suporte')
+print('[3] Loja Hardware')
+print('[4] Suporte')
 esc1 = input('')
 if esc1 == '1':
     print('[1]Adição')
@@ -45,5 +48,11 @@ elif esc1 == '2':
     else:
         print('Não encontramos essa opção')    
 elif esc1 == '3':
+    print('EM desenvolvimento')
+    funcoesloja.inicio()
+    funcoesloja.escolha0001()
+
+
+elif esc1 == '4':
     função.linha2()
     suporte.opções()    
