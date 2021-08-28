@@ -9,7 +9,7 @@ HD = ['HD','hD','Hd','hd']
 SSD = ['SSD','Ssd','ssd','sSd','SsD','sSD']
 processador = ['Processador','processador','Processado','processado']
 placa_de_video = ['Placa de video','placa de video','Placa De Video',]
-sim = ['SIM','Sim','sim','S','s']
+sim = ['SIM','Sim','sim','S','s' '']
 nao = ['Não','Nao','não','nao','N','n']
 cartão = ['Cartão','Cartao','cartão','cartao']
 avista = ['Avista','avista']
@@ -151,7 +151,7 @@ def escolha0001():
                     hd2 = input('O senhor deseja continuar a compra? [S/N] ')         
                     if hd2 in sim:
                         comprahdd2 = input('Como você quer fazer esta compra?(cartão)(Avista) ')
-                        if comprahdd2 in cartao:
+                        if comprahdd2 in cartão:
                             print('Vamos la aqui você vai compra no cartão ')
                             print('Iremos pedir alguns dados do senhor')
                             sleep(0.4)
@@ -179,7 +179,7 @@ def escolha0001():
                                 else:
                                     break
                             else:
-                                print('Não encontramos essa palavra {} verifique se escreveu direito e tente novamente'.format(f5000))
+                                print('Não encontramos essa palavra {} verifique se escreveu direito e tente novamente'.format(continuar))
                                 voltar = input('Quer voltar no inicio? sim/nao ')
                                 if voltar in sim:
                                     print('')
@@ -225,6 +225,13 @@ def escolha0001():
                                     print('')
                                 else:
                                     break
+                        else:
+                            print('Não encontramos essa palavra {} verifique se escreveu direito e tente novamente'.format(comprahdd2))   
+                            voltar = input('Quer voltar no inicio? sim/nao ')
+                            if voltar in sim:
+                                print('')
+                            else:
+                                break        
                     elif hd2 in nao:
                         print('Se quiser dar uma olhada nos outros itens fique avontade')
                         voltar = input('Quer voltar no inicio? sim/nao ')
