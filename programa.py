@@ -48,6 +48,7 @@ elif esc1 == '2':
     else:
         print('Não encontramos essa opção')    
 elif esc1 == '3':
+    print(' ')
     print('EM desenvolvimento')
     funcoesloja.inicio()
     funcoesloja.escolha0001()
