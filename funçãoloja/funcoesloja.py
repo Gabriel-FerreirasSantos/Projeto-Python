@@ -11,7 +11,7 @@ processador = ['Processador','processador','Processado','processado']
 placa_de_video = ['Placa de video','placa de video','Placa De Video',]
 sim = ['SIM','Sim','sim','S','s']
 nao = ['Não','Nao','não','nao','N','n']
-cartao = ['Cartão','Cartao','cartão','cartao']
+cartão = ['Cartão','Cartao','cartão','cartao']
 avista = ['Avista','avista']
 
 def inicio():   
@@ -21,7 +21,7 @@ def inicio():
     print('|          PRODUTOS COM DESCONTOS            |')
     print('----------------------------------------------')
     print('')  
-    print('Para ver nossos intens digite itens.')
+    print('Para ver nossos itens digite itens.')
     print('para ver nossos computadores completo digite pc.')
     print('para sair digite sair ou exit.')
 
@@ -75,7 +75,7 @@ def escolha0001():
                     print('| Acessórios incluídos: cabo usb                                          |')
                     print('---------------------------------------------------------------------------')
                     comprahd1 = input('Como você quer fazer esta compra?(cartão)(Avista) ')
-                    if comprahd1 in cartao:
+                    if comprahd1 in cartão:
                         print('Vamos la aqui você vai compra no cartão ')
                         print('Iremos pedir alguns dados do senhor')
                         sleep(0.4)
@@ -88,7 +88,7 @@ def escolha0001():
                         sleep(1)
                         print('Pronto compra efetuada')
                         cidade = input('Você é de onde? ')
-                        entrega = input('Entregaremos o seu HD em menos de 15 dias')
+                        entrega = input('Entregaremos o seu HD em menos de 15 dias ')
                         voltar = input('Quer voltar no inicio? sim/nao ')
                         if voltar in sim:
                             print('')
@@ -100,7 +100,8 @@ def escolha0001():
                         print('Você ira pagar R$689')
                         sleep(0.4)
                         print('Obrigado')
-                        levar = input('Você deseja levar ou quer que nois levamos até sua casa (se quer levar digite 1/ se quer q nois levamos digite 2) ')
+                        print('Você deseja levar ou quer que nois levamos até sua casa')
+                        levar = input('(se quer levar digite 1/ se quer que nois levamos digite 2) ')
                         if levar == '1':
                             print('Obrigado pela preferencia se precisar de mais itens é so nos visitar')
                             voltar = input('Quer voltar no inicio? sim/nao ')
@@ -127,6 +128,13 @@ def escolha0001():
                                 print('')
                             else:
                                 break  
+                    else:
+                        print('Não encontramos essa palavra {} verifique se escreveu direito e tente novamente'.format(comprahd1)) 
+                        voltar = input('Quer voltar no inicio? sim/nao ')
+                        if voltar in sim:
+                            print('')
+                        else:
+                            break  
         elif perg in listt:
             print('Bem Vindo a area de pc aqui você encontra os pc completo com desconto de até 15%') 
             print('Em desenvolvimento...')
