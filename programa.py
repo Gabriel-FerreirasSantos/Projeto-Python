@@ -34,12 +34,16 @@ if esc1 == '1':
         calculadora.contaderaiz()
     elif esc2 == '6':
         calculadora.contadepotenciação() 
+    else:
+        print('Não encontramos essa opção')    
 elif esc1 == '2':  
     função.fgamesss()
     print('[1] pedra papel tesoura')
     escolha1 = input('')
     if escolha1 == '1':
         games.pedra()
+    else:
+        print('Não encontramos essa opção')    
 elif esc1 == '3':
     função.linha2()
     suporte.opções()    
