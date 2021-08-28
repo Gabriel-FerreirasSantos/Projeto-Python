@@ -460,8 +460,25 @@ def escolha0001():
                         print('')
                     else:
                         break
-
-
+            elif prdt in memoria_ram:
+                print('Em desenvolvimento')
+                break
+            elif prdt in placa_de_video:
+                print('Em desenvolvimento')
+                break 
+            elif prdt in SSD:
+                print('Em desenvolvimento')
+                break
+            elif prdt in processador:
+                print('Em desenvolvimento')
+                break              
+            else:
+                print('desculpa não encontramos o seu {}'.format(prdt))
+                voltar = input('Quer voltar no inicio? sim/nao ')
+                if voltar in sim:
+                    print('')
+                else:
+                    break       
         elif perg in listt:
             print('Bem Vindo a area de pc aqui você encontra os pc completo com desconto de até 15%') 
             print('Em desenvolvimento...')
