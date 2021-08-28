@@ -134,7 +134,111 @@ def escolha0001():
                         if voltar in sim:
                             print('')
                         else:
-                            break  
+                            break           
+                elif hd1 == '2':
+                    print('As configurações deles são as seguintes: ')
+                    print('Preço: R$452.50')
+                    print(' em 12x R$42')
+                    print('---------------------------------------------------------------------------')
+                    print('| É útil para salvar programas e documentos com a sua capacidade de 2 TB. |')
+                    print('| tamanho de 2.5.                                                         |')
+                    print('| É compatível com Windows.                                               |')
+                    print('| Fácil de transportar                                                    |')
+                    print('| Interface de conexão: USB 3.0                                           |')
+                    print('| Adequado para PC e Notebook                                             |')
+                    print('| Acessórios incluídos: cabo usb                                          |')
+                    print('---------------------------------------------------------------------------')
+                    hd2 = input('O senhor deseja continuar a compra? [S/N] ')         
+                    if hd2 in sim:
+                        comprahdd2 = input('Como você quer fazer esta compra?(cartão)(Avista) ')
+                        if comprahdd2 in cartao:
+                            print('Vamos la aqui você vai compra no cartão ')
+                            print('Iremos pedir alguns dados do senhor')
+                            sleep(0.4)
+                            cpf = input('Qual o seu CPF? ')
+                            data = input('Sua data de nascimento? ')
+                            nome = input('Nome completo ')
+                            cartao = input('Qual o banco do seu cartão? ')
+                            continuar = input('Deseja continuar? [S/N] ')
+                            if continuar in sim:
+                                ncrt = input('Qual o numero do cartao? ')
+                                print('Analisando..')
+                                sleep(1)
+                                print('Pronto compra efetuada')
+                                cidade = input('Você é de onde? ')
+                                entrega = input('Entregaremos o seu HD em menos de 15 dias ')
+                                entrega = input('Quer voltar no inicio? sim/nao ')
+                                if entrega in sim:
+                                    print('')
+                                else:
+                                    break  
+                            elif continuar in nao:
+                                voltar = input('Quer voltar no inicio? sim/nao ')
+                                if voltar in sim:
+                                    print('')
+                                else:
+                                    break
+                            else:
+                                print('Não encontramos essa palavra {} verifique se escreveu direito e tente novamente'.format(f5000))
+                                voltar = input('Quer voltar no inicio? sim/nao ')
+                                if voltar in sim:
+                                    print('')
+                                else:
+                                    break  
+                        elif comprahdd2 in avista:
+                            print('Vamos la aqui voce vai comprar avista ')
+                            print('Avista ele custa R$452.50')
+                            print('Deseja continuar? ')
+                            continuar =input('')
+                            sleep(1)
+                            if continuar in sim:
+                                ncret = input('Vamos continuar então ')
+                                print('Você ira pagar R$452.50')
+                                print('Obrigado')
+                                print('Você deseja levar ou quer que nois levamos até sua casa') 
+                                voltar = input('(se quer levar digite 1/ se quer que nois levamos digite 2) ')
+                                if voltar == '1':
+                                    print('Obrigado pela preferencia se precisar de mais itens é so nos visitar')
+                                    voltar = input('Quer voltar no inicio? sim/nao ')
+                                    if voltar in sim:
+                                        print('')
+                                    else:
+                                        break
+                                else:    
+                                    cidade = input('Você é de onde? ')
+                                    print('Entregaremos o seu HD em menos de 24hr ')
+                                    voltar = input('Quer voltar no inicio? sim/nao ')
+                                    if voltar in sim:
+                                        print('')
+                                    else:
+                                        break
+                            elif continuar in nao:
+                                volta = input('Quer voltar no inicio? sim/nao ')
+                                if volta in sim:
+                                    print('')
+                                else:
+                                    break
+                            else:
+                                print('Não encontramos essa palavra {} verifique se escreveu direito e tente novamente'.format(continuar))   
+                                voltar = input('Quer voltar no inicio? sim/nao ')
+                                if voltar in sim:
+                                    print('')
+                                else:
+                                    break
+                    elif hd2 in nao:
+                        print('Se quiser dar uma olhada nos outros itens fique avontade')
+                        voltar = input('Quer voltar no inicio? sim/nao ')
+                        if voltar in sim:
+                            print('')
+                        else:
+                            break
+                    else:
+                        print('Não econtramos essa plavra {} verifique novamente e tente'.format(hd2))
+                        voltar = input('Quer voltar no inicio? sim/nao ')
+                        if voltar in sim:
+                            print('')
+                        else:
+                            break
         elif perg in listt:
             print('Bem Vindo a area de pc aqui você encontra os pc completo com desconto de até 15%') 
             print('Em desenvolvimento...')
