@@ -5,7 +5,7 @@ from função import calculadora
 from funçãoSuporte import suporte
 from jogos import games
 
-menu = ('MENU')
+menu = 'MENU'
 
 
 função.linha()
@@ -46,10 +46,10 @@ elif esc1 == '2':
     if escolha1 == '1':
         games.pedra()
     else:
-        print('Não encontramos essa opção')    
+        print(f'Não encontramos essa opção')
 elif esc1 == '3':
     print(' ')
-    print('EM desenvolvimento')
+    print(f'Em desenvolvimento')
     funcoesloja.inicio()
     funcoesloja.escolha0001()
 
