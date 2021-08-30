@@ -17,7 +17,7 @@ print(f'[2] Joguinhos')
 print(f'[3] Loja Hardware')
 print(f'[4] Suporte')
 função.linha()
-esc1 = input('')
+esc1 = input('').strip()
 função.linha()
 if esc1 == '1':
     calc = 'Calculadora'
@@ -30,7 +30,7 @@ if esc1 == '1':
     print(f'[5]Raiz quadrada')
     print(f'[6]Potenciação')
     função.linha()
-    esc2 = input('')
+    esc2 = input('').strip()
     função.linha()
     if esc2 == '1':
         calculadora.contademais()
@@ -49,7 +49,7 @@ if esc1 == '1':
 elif esc1 == '2':  
     função.fgamesss()
     print(f'[1] pedra papel tesoura')
-    escolha1 = input('')
+    escolha1 = input('').strip()
     if escolha1 == '1':
         games.pedra()
     else:
