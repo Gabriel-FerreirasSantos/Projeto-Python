@@ -6,12 +6,12 @@ def opções():
     print('[3] Erros ')
     print('[4] Feedbak')
     print('[5] Entre em contato')
-    esc3 = input('')
+    esc3 = input('').strip()
     if esc3 == '1':
         print('[1] Calculadora')
         print('[2] Jogos')
         print('[3] Suporte')
-        esc4 = input('')
+        esc4 = input('').strip()
         if esc4 == '1':
             função.linha3()
             print('máquina dotada de dispositivos mecânicos ou de programa')
