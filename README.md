@@ -24,7 +24,7 @@
 
     <br>
 
-### Partes
+### Versões
 
 - [ ] Primeira Versão
 - [ ] Segunda Versão
