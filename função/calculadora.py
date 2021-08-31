@@ -4,13 +4,13 @@ def contademais():
     a = int(input('Digite um numero: '))
     b = int(input('Digite outro: '))
     s1 = (a + b)
-    print('{:.1f} + {:.1f} = {:.1f}'.format(a, b, s1))
+    print('{} + {} = {}'.format(a, b, s1))
 
 def contademenos():
     a = int(input('Digite um numero: '))
     b = int(input('Digite outro: '))
     s2 = (a - b)
-    print('{:.1f} - {:.1f} = {:.1f}'.format(a, b, s2))    
+    print('{} - {} = {}'.format(a, b, s2))    
 
 def contadedividir():
     a = float(input('Digite um numero: '))
@@ -27,7 +27,7 @@ def contademutiplicação():
 def contaderaiz():
     num = float(input("Digite um numero:\n"))
     raiz = math.pow(num, 1/2)
-    print('{:.1f} √  = {:.1f}'.format(num, raiz)) 
+    print('{:.1f} √ = {:.1f}'.format(num, raiz)) 
     
 
 def contadepotenciação():
