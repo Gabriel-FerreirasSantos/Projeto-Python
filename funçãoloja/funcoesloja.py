@@ -116,19 +116,15 @@ def escolha0001():
                             voltar = input('Quer voltar no inicio? sim/nao ').strip()
                             if voltar in sim:
                                 print('')
-                            else:
+                            elif voltar in nao:
                                 break
-                            voltar = input('Quer voltar no inicio? sim/nao ').strip()
-                            if voltar in sim:
-                                print('')
-                            else:
-                                break
-                            print('Não encontramos essa palavra {} verifique se escreveu direito e tente novamente'.format(comprahd1)) 
-                            voltar = input('Quer voltar no inicio? sim/nao ').strip()
-                            if voltar in sim:
-                                print('')
-                            else:
-                                break  
+                            else:    
+                                print('Não encontramos essa palavra {} verifique se escreveu direito e tente novamente'.format(comprahd1)) 
+                                voltar = input('Quer voltar no inicio? sim/nao ').strip()
+                                if voltar in sim:
+                                    print('')
+                                else:
+                                    break  
                     else:
                         print('Não encontramos essa palavra {} verifique se escreveu direito e tente novamente'.format(comprahd1)) 
                         voltar = input('Quer voltar no inicio? sim/nao ').strip()
