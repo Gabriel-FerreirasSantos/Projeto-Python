@@ -30,7 +30,7 @@ def opções():
         função.linha5()
         print('Programa Publico')
         print('Licencia Mit')
-        print('1.0v')
+        print('0.1v')
     elif esc3 == '3':
         função.linha6()
         print('Erros bugs denuncie na area de feedbak')
