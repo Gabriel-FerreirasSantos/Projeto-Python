@@ -26,6 +26,7 @@
 
 ### Versões
 
+- [ ] Beta Desenvolvimento
 - [ ] Primeira Versão
 - [ ] Segunda Versão
 - [ ] Terceira Versão
