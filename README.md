@@ -12,22 +12,23 @@
 * ### Propósito 
     * #### Ainda está em desenvolvimento.
     * #### Mas será um projeto treino.
-    * #### Ainda tem varias coisas que colocarei
-    * #### Aceito criticas construtivas para melhoria
+    * #### Ainda tem varias coisas que colocarei.
+    * #### Aceito criticas construtivas para melhoria.
 
 
 * ### Como funciona
-    * #### Um programa que contem uma calculadora dentro,
+    * #### Um programa que contem uma calculadora dentro.
     * #### Também contem um game dentro.
-    * #### Contem também  um suporte de informações 
+    * #### Contem também um suporte de informações. 
+    * #### Contem também um simulador de loja. 
 
     <br>
 
 ### Partes
 
-- [x] Primeira parte
-- [ ] Segunda parte
-- [ ] Terceira parte
+- [ ] Primeira Versão
+- [ ] Segunda Versão
+- [ ] Terceira Versão
 
     <br>
 
