@@ -25,12 +25,13 @@
     
 
 ## 👷 Como rodar  
-    ```
-    # Clonar o repositório
-    git clone Gabriel-FerreirasSantos/Projeto-Python
+```
+# Clonar o repositório
+git clone Gabriel-FerreirasSantos/Projeto-Python
 
-    # Entrar numa IDE de sua preferência 
-    ```
+# Entrar numa IDE de sua preferência
+
+```
 
 ## 🤔 Como contribuir
 * Faça um fork desse repositório;
@@ -38,9 +39,10 @@
 * Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`; 
 * Faça push para a sua branch: `git push origin minha-feature`;
 
+
 Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
-### Versões
+## Versões
 
 - [ ] Fase de desenvolvimento
 - [ ] Beta tester
