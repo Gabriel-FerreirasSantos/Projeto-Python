@@ -25,7 +25,7 @@ def contademutiplicação():
     print('{:.1f} x {:.1f} = {:.1f}'.format(a, b, s4)) 
 
 def contaderaiz():
-    num = float(input("Digite um numero:\n"))
+    num = float(input("Digite um numero: "))
     raiz = math.pow(num, 1/2)
     print('{:.1f} √ = {:.1f}'.format(num, raiz)) 
     
