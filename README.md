@@ -1,6 +1,6 @@
 ### hello people👋
 
-# 🚧Em fase de construção Projeto-Python✔️ 🚧
+## 🚧Em fase de construção Projeto-Python✔️ 🚧
 
 ###  Ferramentas usadas 📓
   
@@ -27,10 +27,9 @@
 ## 👷 Como rodar  
 ```
 # Clonar o repositório
-git clone Gabriel-FerreirasSantos/Projeto-Python
-
+  git clone Gabriel-FerreirasSantos/Projeto-Python
+  
 # Entrar numa IDE de sua preferência
-
 ```
 
 ## 🤔 Como contribuir
@@ -38,7 +37,6 @@ git clone Gabriel-FerreirasSantos/Projeto-Python
 * Cria uma branch com a sua feature: `git checkout -b minha-feature`;
 * Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`; 
 * Faça push para a sua branch: `git push origin minha-feature`;
-
 
 Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
