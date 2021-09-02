@@ -1,6 +1,6 @@
 ### hello people👋
 
-# Projeto-Python
+# 🚧Em fase de construção Projeto-Python✔️ 🚧
 
 ###  Ferramentas usadas 📓
   
@@ -9,7 +9,9 @@
     
 <br>
 
-* ### Propósito 
+
+# Informações
+* ### 💻Propósito 
     * #### Ainda está em desenvolvimento.
     * #### Mas será um projeto treino.
     * #### Ainda tem varias coisas que colocarei.
@@ -20,9 +22,23 @@
     * #### Um programa que contem uma calculadora dentro.
     * #### Também contem um game dentro.
     * #### Contem também um suporte de informações. 
-    * #### Contem também um simulador de loja. 
+    
 
-    <br>
+## 👷 Como rodar  
+    ```
+    # Clonar o repositório
+    git clone Gabriel-FerreirasSantos/Projeto-Python
+
+    # Entrar numa IDE de sua preferência 
+    ```
+
+## 🤔 Como contribuir
+* Faça um fork desse repositório;
+* Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+* Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`; 
+* Faça push para a sua branch: `git push origin minha-feature`;
+
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
 ### Versões
 
