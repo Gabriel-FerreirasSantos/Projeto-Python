@@ -26,7 +26,8 @@
 
 ### Versões
 
-- [ ] Beta Desenvolvimento
+- [ ] Fase de desenvolvimento
+- [ ] Beta tester
 - [ ] Primeira Versão
 - [ ] Segunda Versão
 - [ ] Terceira Versão
