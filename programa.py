@@ -1,6 +1,5 @@
 from time import sleep
 from função import função 
-from funçãoloja import funcoesloja
 from função import calculadora
 from funçãoSuporte import suporte
 from jogos import games
@@ -10,14 +9,11 @@ menu = 'MENU'
 função.linha()
 print(menu.center(26))
 função.linha()
-print(f'Loja Hardware em desenvolvimento  V0.1')
-print(f' ')
 print(f'[1] Calculadora')
 print(f'[2] Joguinhos')
-print(f'[3] Loja Hardware')
-print(f'[4] Suporte')
+print(f'[3] Suporte')
 função.linha()
-esc1 = input('').strip()
+esc1 = input('R: ').strip()
 função.linha()
 if esc1 == '1':
     calc = 'Calculadora'
@@ -30,7 +26,7 @@ if esc1 == '1':
     print(f'[5]Raiz quadrada')
     print(f'[6]Potenciação')
     função.linha()
-    esc2 = input('').strip()
+    esc2 = input('R: ').strip()
     função.linha()
     if esc2 == '1':
         calculadora.contademais()
@@ -49,19 +45,13 @@ if esc1 == '1':
 elif esc1 == '2':  
     função.fgamesss()
     print(f'[1] pedra papel tesoura')
-    escolha1 = input('').strip()
+    escolha1 = input('R: ').strip()
     if escolha1 == '1':
+        print('')
         games.pedra()
     else:
         print(f'Não encontramos essa opção')
 elif esc1 == '3':
-    print(' ')
-    print(f'Em desenvolvimento')
-    funcoesloja.inicio()
-    funcoesloja.escolha0001()
-
-
-elif esc1 == '4':
     
     sup = 'Suporte'
     print(sup.center(26))
