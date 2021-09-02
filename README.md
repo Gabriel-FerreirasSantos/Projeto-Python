@@ -1,6 +1,6 @@
 ### hello people👋
 
-# 🚧Em fase de construção Projeto-Python✔️ 🚧
+## 🚧Em fase de construção Projeto-Python✔️ 🚧
 
 ###  Ferramentas usadas 📓
   
@@ -25,12 +25,12 @@
     
 
 ## 👷 Como rodar  
-    ```
-    # Clonar o repositório
-    git clone Gabriel-FerreirasSantos/Projeto-Python
-
-    # Entrar numa IDE de sua preferência 
-    ```
+```
+# Clonar o repositório
+  git clone Gabriel-FerreirasSantos/Projeto-Python
+  
+# Entrar numa IDE de sua preferência
+```
 
 ## 🤔 Como contribuir
 * Faça um fork desse repositório;
@@ -40,7 +40,7 @@
 
 Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
-### Versões
+## Versões
 
 - [ ] Fase de desenvolvimento
 - [ ] Beta tester
