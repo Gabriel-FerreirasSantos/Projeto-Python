@@ -45,11 +45,12 @@ if esc1 == '1':
 elif esc1 == '2':  
     função.fgamesss()
     print(f'[1] pedra papel tesoura')
+    função.linha()
     escolha1 = input('R: ').strip()
     if escolha1 == '1':
-        print('')
         games.pedra()
     else:
+        função.linha()
         print(f'Não encontramos essa opção')
 elif esc1 == '3':
     
