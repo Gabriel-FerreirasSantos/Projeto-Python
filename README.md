@@ -44,9 +44,8 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 
 - [x] Fase de desenvolvimento
 - [x] Beta tester
-- [ ] Primeira Versão
-- [ ] Segunda Versão
-- [ ] Terceira Versão
+- [x] Primeira Versão
+
 
     <br>
 
