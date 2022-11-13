@@ -1,6 +1,6 @@
 ### hello people👋
 
-## 🚧Em fase de construção Projeto-Python✔️ 🚧
+## 🚧Em Reforma de construção Projeto-Python✔️ 🚧
 
 ###  Ferramentas usadas 📓
   
@@ -42,9 +42,9 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 
 ## Versões
 
-- [x] Fase de desenvolvimento
-- [x] Beta tester
-- [x] Primeira Versão
+- [] Fase de desenvolvimento
+- [] Beta tester
+- [] Primeira Versão
 
 
     <br>
