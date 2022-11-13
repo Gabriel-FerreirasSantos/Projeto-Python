@@ -16,7 +16,7 @@ função.linha()
 esc1 = input('R: ').strip()
 função.linha()
 if esc1 == '1':
-    calc = 'Calculadora'
+    calc = 'Calculadora'"
     print(calc.center(26))
     função.linha()
     print(f'[1]Adição')
